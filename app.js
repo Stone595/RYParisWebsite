@@ -1,1 +1,0 @@
-Creating javaScript file

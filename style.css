@@ -1,1 +1,171 @@
-Creating CSSvfile
+*{
+  margin: 0; 
+  box-sizing: border-box;
+}
+h1{
+  font-size: 3em;
+  margin-bottom: 1%;
+}
+p{
+  font-size: 1.3em;
+}
+.body{
+  width: 80%;
+}
+.topNavBar{
+  display: flex;
+  justify-content: space-between;
+  background-color: #F1A436;
+  margin-bottom: .2%;
+}
+.logoRY{
+  margin-left: 40px;
+  font-size: 1.5rem;
+  
+}
+
+ul{
+  display: flex;
+  list-style-type: none;
+  margin-right: 8%;
+  align-items: center;
+}
+li{
+  list-style: none;
+  font-size: 25px;
+  margin: 8px;
+  
+  
+}
+.bodyPic{
+  background-image: url(images/hero-image.jpg);
+  height: 80vh;
+  background-repeat: no-repeat;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  /* align-self: flex-end;
+  justify-content: center; */
+  justify-content: center;
+
+  background-color: white;
+}
+
+.startOff{
+  align-self: flex-end;
+  margin-bottom: 2%;
+  background-color: white;
+  font-size: 3em;
+  height: 8%;
+}
+.everyDay{
+  margin-left: 15%;
+  width: 70%;
+}
+.evPics, .wherePics{
+  margin-top: 2%;
+  display: flex; 
+  justify-content: space-between;
+
+}
+.picSpread{
+  height: 250px;
+  width: 300px;
+}
+.captions, .whereCaps{
+  display: flex;
+  justify-content: space-around;
+  margin-top: .5%;
+  font-size: 1.2rem;
+}
+.healthyRec{
+  background-color: #dadfea;
+  
+}
+.healthContainer{
+  
+  margin: 2% 10%;
+  padding: 5%;
+}
+.healthyTitle{
+  font-size: 2rem;
+  margin-bottom: 1rem; 
+}
+.healthyBody{
+  font-size: 1.3rem;
+  margin-bottom: 1.3rem;
+}
+.healthPicsCon{
+  display: flex;
+  justify-content: space-between;
+}
+.healthyImage{
+  height: 12rem;
+  width: 12rem;
+}
+.capBox{
+  font-size: 1.2rem;
+  background-color: white;
+  width: 12rem;
+  display: flex;
+  justify-content: center;
+
+}
+.healthyPicCaptions{
+  
+  display: flex;
+  justify-content: space-between;
+}
+.whereCon{
+  margin: 2% 10%;
+}
+.whereText{
+
+}
+.p2{
+  margin-bottom: 1.5rem;
+}
+.wherePics{
+
+}
+.whereCaps{
+
+}
+.wherePicSize{
+  height: 250px;
+  width: 300px;
+}
+.westP{
+  
+  background-color: blue;
+}
+.weee{
+  margin-right: 10%;
+}
+.abs{
+  position: relative;
+  right: 6%;
+}
+footer{
+  background-color: #F1A436;
+  display: flex;
+  justify-content: space-between;
+  background-color: #F1A436;
+  align-items: center;
+  
+}
+.footerUL{
+  justify-content: center;
+  align-items: flex-end;
+}
+.recipeBodyPic{
+  background-image: url(images/burger.jpg);
+  background-size: cover;
+  height: 80vh;
+  background-repeat: no-repeat;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
