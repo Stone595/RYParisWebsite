@@ -21,9 +21,7 @@ p{
 .logoRY{
   margin-left: 40px;
   font-size: 1.5rem;
-  
 }
-
 ul{
   display: flex;
   list-style-type: none;
@@ -34,8 +32,6 @@ li{
   list-style: none;
   font-size: 25px;
   margin: 8px;
-  
-  
 }
 .bodyPic{
   background-image: url(images/hero-image.jpg);
@@ -44,13 +40,9 @@ li{
   margin-left: 5%;
   margin-bottom: 5%;
   display: flex;
-  /* align-self: flex-end;
-  justify-content: center; */
   justify-content: center;
-
   background-color: white;
 }
-
 .startOff{
   align-self: flex-end;
   margin-bottom: 2%;
@@ -66,7 +58,6 @@ li{
   margin-top: 2%;
   display: flex; 
   justify-content: space-between;
-
 }
 .picSpread{
   height: 250px;
@@ -80,10 +71,8 @@ li{
 }
 .healthyRec{
   background-color: #dadfea;
-  
 }
 .healthContainer{
-  
   margin: 2% 10%;
   padding: 5%;
 }
@@ -109,28 +98,18 @@ li{
   width: 12rem;
   display: flex;
   justify-content: center;
-
 }
 .healthyPicCaptions{
-  
   display: flex;
   justify-content: space-between;
 }
 .whereCon{
   margin: 2% 10%;
 }
-.whereText{
-
-}
 .p2{
   margin-bottom: 1.5rem;
 }
-.wherePics{
 
-}
-.whereCaps{
-
-}
 .wherePicSize{
   height: 250px;
   width: 300px;
@@ -164,8 +143,60 @@ footer{
   height: 80vh;
   background-repeat: no-repeat;
   margin-left: 5%;
-  margin-bottom: 5%;
+
   display: flex;
+  margin: 0 5%;
   justify-content: center;
   background-color: white;
+}
+.startOff{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+.levels{
+  background-color: #dadfea;
+  margin: 0 5% ;
+  /* height: 10vh; */
+}
+h2{
+  font-size: 2rem;
+  padding-top: 2%;
+  padding-left: 3.8%;
+}
+.levelsCon{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+h3{
+  font-size: 3rem;
+
+}
+.bengalBurger{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  flex-direction: column;
+}
+.bengalStars{
+  margin-top: 1.2rem;
+  margin-bottom: 1rem;
+}
+button{
+  font-size: 2rem;
+  border-radius: 40%;
+  background-color: #A63223;
+  height: 50px 
+}
+.print{
+  display: flex;
+  justify-content: center;
+}
+.reviews{
+  font-size: 1.5rem;
+}
+.fa-star{
+  height: 1.5rem;
 }
