@@ -12,6 +12,11 @@ p{
 .body{
   width: 80%;
 }
+
+a{
+  text-decoration: none;
+  color: black;
+}
 .topNavBar{
   display: flex;
   justify-content: space-between;
@@ -19,25 +24,30 @@ p{
   margin-bottom: .2%;
 }
 .logoRY{
-  margin-left: 40px;
+  margin-left: 2.7rem;
   font-size: 1.5rem;
 }
-ul{
+.u1, .levelsCon, .bengalStars, .footerUL {
   display: flex;
   list-style-type: none;
   margin-right: 8%;
   align-items: center;
-}
-li{
   list-style: none;
-  font-size: 25px;
-  margin: 8px;
+  flex-wrap: wrap;
+}
+ul{
+  flex-wrap: wrap;
+}
+li {
+  font-size: 1.5em;
+  margin: .5em;
 }
 .bodyPic{
   background-image: url(images/hero-image.jpg);
   height: 80vh;
   background-repeat: no-repeat;
   margin-left: 5%;
+  margin-right: 5%;
   margin-bottom: 5%;
   display: flex;
   justify-content: center;
@@ -48,10 +58,10 @@ li{
   margin-bottom: 2%;
   background-color: white;
   font-size: 3em;
-  height: 8%;
+  height: auto;
 }
 .everyDay{
-  margin-left: 15%;
+  margin: 0 15%;
   width: 70%;
 }
 .evPics, .wherePics{
@@ -60,14 +70,16 @@ li{
   justify-content: space-between;
 }
 .picSpread{
-  height: 250px;
-  width: 300px;
+  height: 15em;
+  width: 20em;
+  margin-right: 1em;
 }
 .captions, .whereCaps{
   display: flex;
   justify-content: space-around;
+  align-items: center;
   margin-top: .5%;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .healthyRec{
   background-color: #dadfea;
@@ -111,8 +123,8 @@ li{
 }
 
 .wherePicSize{
-  height: 250px;
-  width: 300px;
+  height: 15em;
+  width: 20em;
 }
 .westP{
   
@@ -131,19 +143,21 @@ footer{
   justify-content: space-between;
   background-color: #F1A436;
   align-items: center;
+  width: 100%;
+  height:  5em;
   
 }
 .footerUL{
   justify-content: center;
   align-items: flex-end;
+  
 }
 .recipeBodyPic{
-  background-image: url(images/burger.jpg);
+  background-image: url(images/bengalBurger.jpg);
   background-size: cover;
-  height: 80vh;
+  height: 60vh;
   background-repeat: no-repeat;
   margin-left: 5%;
-
   display: flex;
   margin: 0 5%;
   justify-content: center;
@@ -155,6 +169,9 @@ footer{
   align-items: center;
 }
 .levels{
+  height: 10em;
+}
+.levels, .bengalText{
   background-color: #dadfea;
   margin: 0 5% ;
   /* height: 10vh; */
@@ -177,26 +194,74 @@ h3{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 5rem;
+  margin-top: 1em;
   flex-direction: column;
 }
 .bengalStars{
   margin-top: 1.2rem;
   margin-bottom: 1rem;
+  display: flex; 
+  justify-content: center;
+  margin-left: 4.5em;
 }
 button{
   font-size: 2rem;
-  border-radius: 40%;
+  border-radius: 10%;
   background-color: #A63223;
-  height: 50px 
+  height: 1.5em;
+  margin-right: 1em;
 }
-.print{
+.print, .bengalText{
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
 }
-.reviews{
+.reviews, .bengalText{
   font-size: 1.5rem;
 }
 .fa-star{
   height: 1.5rem;
 }
+.fa-print {
+  margin-left: .5em;
+  font-size: 2em;
+  
+}
+.centerB{
+  width: 80%;
+  padding: 2em;
+  font-size: 1.2em;
+}
+.dot{
+  height: 3.5em;
+  width: 3.5em;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: .89em;
+}
+.inNdirCon{
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+}
+.inCon, .dirCon{
+  width: 100%;
+}
+.inTextI{
+  font-size: 2em;
+}
+
+.inTextD{
+  font-size: 1.5em;
+  margin-top: 3em;
+}
+
+@media screen and (max-width: 1100px){
+
+}
+
+
