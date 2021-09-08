@@ -43,7 +43,8 @@ li {
   margin: .5em;
 }
 .bodyPic{
-  background-image: url(images/hero-image.jpg);
+  /* background-image: url(./images/hero-image.jpg); */
+  background-image: url(/images/hero-image.jpg);
   height: 80vh;
   background-repeat: no-repeat;
   margin-left: 5%;
@@ -153,7 +154,7 @@ footer{
   
 }
 .recipeBodyPic{
-  background-image: url(images/bengalBurger.jpg);
+  background-image: url(images/.bengalBurger);
   background-size: cover;
   height: 60vh;
   background-repeat: no-repeat;
@@ -260,8 +261,10 @@ button{
   margin-top: 3em;
 }
 
-@media screen and (max-width: 1100px){
-
+.youtubeVid{
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
 }
 
 
