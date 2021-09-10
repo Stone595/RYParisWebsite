@@ -21,7 +21,7 @@ a{
   display: flex;
   justify-content: space-between;
   background-color: #F1A436;
-  margin-bottom: .2%;
+ 
 }
 .logoRY{
   margin-left: 2.7rem;
@@ -44,11 +44,13 @@ li {
 }
 .bodyPic{
   /* background-image: url(./images/hero-image.jpg); */
-  background-image: url(/images/hero-image.jpg);
+  /* background-image: url(images/mainImage.jpg); */
+  background-image: url(../images/mainImage.jpg);
   height: 80vh;
+  width: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  margin-left: 5%;
-  margin-right: 5%;
+  /* margin: 0 5% 5% 5%; */
   margin-bottom: 5%;
   display: flex;
   justify-content: center;
@@ -154,13 +156,12 @@ footer{
   
 }
 .recipeBodyPic{
-  background-image: url(images/.bengalBurger);
+  background-image: url(../images/bengal-burger.jpg);
   background-size: cover;
   height: 60vh;
   background-repeat: no-repeat;
-  margin-left: 5%;
   display: flex;
-  margin: 0 5%;
+  width: 100%;
   justify-content: center;
   background-color: white;
 }
@@ -171,8 +172,10 @@ footer{
 }
 .levels{
   height: 10em;
+  width: 100%;
+  background-color: #dadfea;
 }
-.levels, .bengalText{
+.bengalText{
   background-color: #dadfea;
   margin: 0 5% ;
   /* height: 10vh; */
@@ -186,6 +189,7 @@ h2{
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
+  
 }
 h3{
   font-size: 3rem;
